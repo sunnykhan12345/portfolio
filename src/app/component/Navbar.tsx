@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className='sticky top-0 bg-white z-50'>
      <header className="text-gray-600 body-font">
       <div className="container mx-auto flex flex-wrap p-3 flex-col md:flex-row items-center">
-    <a className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+    <a href='/' className="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
     {/* img place logo */}
     <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -31,11 +31,11 @@ const Navbar = () => {
       <Link href={"#project"} className="mr-5 hover:text-red-900 cursor-pointer">Projcts</Link>
       <Link href={"#contact"} className="mr-5 hover:text-red-900 cursor-pointer">Contacts</Link>
     </nav>
-   <Link href={"/cv/sana ullah.cv.pdf"} target='_blank'>
+   {/* <Link href={"/cv/sana ullah.cv.pdf"} target='_blank'>
    <button className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Download Cv <FiDownloadCloud  className='ml-2 text-lg'/>
     
     </button>
-   </Link>
+   </Link> */}
   </div>
 </header>
     </div>
