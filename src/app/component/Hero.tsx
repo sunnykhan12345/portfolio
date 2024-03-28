@@ -1,6 +1,6 @@
 'use client'
-// import Image from 'next/image'
-// import sunn from "../../../public/image/sunny1.jpg"
+import Image from 'next/image'
+import sunn from "../../../public/image/sunny1.jpg"
 import Typewriter from 'typewriter-effect';
 import Link from 'next/link';
 const Hero = () => {
@@ -30,7 +30,7 @@ const Hero = () => {
       </div>
     </div>
     <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-      {/* <Image src={sunn} width={500} height={500} className="w-[15rem] mx-auto object-cover object-center rounded-lg" alt="hero" /> */}
+      <Image src={sunn} width={500} height={500} className="w-[15rem] mx-auto object-cover object-center rounded-lg" alt="hero" />
     </div>
   </div>
 </section>
